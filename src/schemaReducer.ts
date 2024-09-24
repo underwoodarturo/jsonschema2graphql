@@ -108,7 +108,7 @@ function buildType(propName: string, schema: JSONSchema7, knownTypes: GraphQLTyp
 
   // basic?
   else if (BASIC_TYPE_MAPPING[schema.type as string]) {
-    return BASIC_TYPE_MAPPING[schema.type as string] as any
+    return BASIC_TYPE_MAPPING[schema.type as string]
   }
 
   // ¯\_(ツ)_/¯

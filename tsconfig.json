@@ -4,16 +4,17 @@
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "lib": ["es2018", "esnext.asynciterable"],
+    "lib": ["es2017", "esnext.asynciterable"],
     "module": "commonjs",
-    "noImplicitAny": false,
-    "noImplicitReturns": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
     "noImplicitThis": false,
     "outDir": "build",
     "rootDir": "src",
     "sourceMap": true,
     "strictNullChecks": true,
-    "target": "ES2018"
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5"
   },
   "include": ["src/**/*.ts"]
 }
